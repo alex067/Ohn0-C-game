@@ -13,6 +13,7 @@ Basic Rules:
 0 | 2 | 1
 0 | 1 | 0
 0 | 0 | 0
+
 *This board satisfies, as each cell can see the exact number of cells its value represents. So in [0][1], the "2" can see exactly 2 cells. The [0][2] cell can see exactly only 1 cell.
 
 - An example of an invalid board:
