@@ -14,7 +14,7 @@ Basic Rules:
 0 | 1 | 0 <br /> 
 0 | 0 | 0 <br />
 <br />
-*This board satisfies, as each cell can see the exact number of cells its value represents. So in [0][1], the "2" can see exactly 2 cells. The [0][2] cell can see exactly only 1 cell.
+*This board satisfies, as each cell can see the exact number of cells its value represents. So in [0][1], the "2" can see exactly 2 cells. The [0][2] cell can see exactly only 1 cell.*
 <br />
 - An example of an invalid board:
 
@@ -22,7 +22,7 @@ Basic Rules:
 0 | 1 | 0 <br />
 0 | 0 | 0 <br />
 <br />
-*The board does not satisfy as [0][2] has a visibility range of 2 but only sees 1 cell.
+*The board does not satisfy as [0][2] has a visibility range of 2 but only sees 1 cell.*
 <br />
 Update (5/2/2018): 
 - Implementing backtracking algorithm to effectively generate a random board. The primative way of using a nested for loop and generating a random number sequentially was so slow, it did not even generate a valid board in 10 minute time frame.
